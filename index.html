@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Opitcal Queue</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <p id="header-title">Optical Queue</p>
+        <ul id="header-nav">
+          <li>Customer Name</li>
+          <li>Service Request</li>
+          <li>Arrival Time</li>
+          <li>Note</li>
+          <li>Status</li>
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      <div id="customer-entry">
+        <div class="customer-container">
+          <form>
+            Customer Name: <input type="text" name="custName"><br>
+            Customer Service: <input type="text" name="custService"><br>
+            Arrival Time: <input type="datetime" name="arrivalTime"><br>
+            Note: <input type="text" name="note"><br>
+            Status: <input type="radio" name="status" value="Waiting">Waiting<br>
+            <input type="submit" value="Add to Queue">
+        </form>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
